@@ -1,0 +1,27 @@
+// 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false
+var v1 = "hello";
+var v2 = "owu";
+var v3 = "com";
+var v4 = "ua";
+var v5 = 1;
+var v6 = 10;
+var v7 = -999;
+var v8 = 123;
+var v9 = 3.14;
+var v10 = 2.7;
+var v11 = 16;
+var v12 = true;
+var v13 = false;
+console.log(v1);
+console.log(v2);
+console.log(v3);
+console.log(v4);
+console.log(v5);
+console.log(v6);
+console.log(v7);
+console.log(v8);
+console.log(v9);
+console.log(v10);
+console.log(v11);
+console.log(v12);
+console.log(v13);
