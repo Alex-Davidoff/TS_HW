@@ -56,7 +56,6 @@ let userarr : userClass[] = [
         password : "test_passwd10"
     }
 ];
-
 console.log(userarr[0].password);
 console.log(userarr[1].password);
 console.log(userarr[2].password);
