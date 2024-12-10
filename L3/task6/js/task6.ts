@@ -1,9 +1,10 @@
-var Product = /** @class */ (function () {
-    function Product() {
-    }
-    return Product;
-}());
-var products = [
+class Product {
+    title: string;
+    price: number;
+    image: string;
+}
+
+let products : Array<Product> = [
     {
         title: 'milk',
         price: 22,
@@ -25,10 +26,10 @@ var products = [
         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
     },
 ];
-for (var _i = 0, products_1 = products; _i < products_1.length; _i++) {
-    var product = products_1[_i];
+
+for (const product of products){
     document.write('<div class="product-card">');
-    document.write('<h3 class="product-title">' + product.title + '. Price - ' + product.price + '</h3>');
-    document.write('<img src="' + product.image + '" alt="" class="product-image">');
+    document.write('<h3 class="product-title">'+product.title+'. Price - '+product.price+'</h3>');
+    document.write('<img src="'+product.image+'" alt="" class="product-image">');
     document.write('</div>');
 }

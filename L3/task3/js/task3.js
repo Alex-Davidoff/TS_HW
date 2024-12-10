@@ -1,5 +1,6 @@
-let c = 0;
-while (c<20){
-    document.write("<h1>"+"довільнй текст всередині"+"</h1>");
+var c = 0;
+var ctext = "довільнй текст всередині";
+while (c < 20) {
+    document.write("<h1>" + ctext + "</h1>");
     c++;
 }
